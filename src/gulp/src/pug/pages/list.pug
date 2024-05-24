@@ -1,0 +1,33 @@
+extends ../templates/simply
+
+block vars
+	- const title = 'Список страниц'
+
+block content
+
+	article.container.article
+		ul.plain-list
+			li
+				a(href="/") Главная<br>
+					small [index]
+			li
+				a(href="/register.html") Регистрация<br>
+					small [register]
+			li
+				a(href="/login.html") Вход<br>
+					small [login]
+			li
+				a(href="/recovery.html") Восстановление пароля<br>
+					small [recovery]
+			li
+				a(href="/404.html") 404<br>
+					small [404]
+			li
+				a(href="/user.html") Личный кабинет<br>
+					small [user]
+			li
+				a(href="/user/settings.html") Настройки<br>
+					small [user/settings]
+			li
+				a(href="/legal.html") Юр. информация<br>
+					small [legal]

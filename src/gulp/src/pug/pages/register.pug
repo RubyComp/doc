@@ -1,0 +1,23 @@
+extends ../templates/welcome
+
+block vars
+	- const title = 'Регистрация'
+
+block content
+
+	.container.login
+
+		a.login__logo(href="/")
+			img(src=imgPath + "logo.png")
+
+		h1.login__header #{title}
+
+		.note.login__text
+			p На указанный вами Email придёт код подтверждения.
+
+		.login__actions
+			.input
+				input(type="text" placeholder="Email / Логин")
+
+		.note.login__footer
+			a(href="/login.html") У  меня уже есть аккаунт

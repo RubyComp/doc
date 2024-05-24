@@ -1,0 +1,53 @@
+// .btn {
+// 	--elem-color: var(--light-color);
+// 	--text-color: var(--text-color);
+// 	border: 1px solid var(--elem-color);
+// 	color: var(--text-color);
+// 	display: inline-block;
+// 	font-size: 18px;
+// 	padding: .75em 3em;
+// 	text-transform: uppercase;
+// 	transition: .2s;
+
+// 	&:not(:disabled) {
+// 		cursor: pointer;
+// 	}
+
+// 	&:not(:disabled):hover {
+// 		--text-color: var(--back-color);
+// 		background-color: var(--elem-color);
+// 		text-decoration: inherit;
+// 	}
+
+// 	&:disabled {
+// 		--elem-color: var(--neutral-color-grey);
+// 		opacity: .7;
+// 	}
+
+// 	&_primary {
+// 		--elem-color: var(--accent-color);
+// 		--text-color: var(--neutral-color);
+// 		background-color: var(--elem-color);
+// 		text-transform: inherit;
+// 		font-weight: 500;
+
+// 		&:not(:disabled) {
+// 			cursor: pointer;
+
+// 			&:hover {
+// 				cursor: pointer;
+// 				--elem-color: var(--light-color);
+// 				--text-color: var(--back-color);
+// 			}
+// 		}
+// 	}
+
+// 	&_wide {
+// 		padding-left: 5.5em;
+// 		padding-right: 5.5em;
+// 	}
+// 	&_compact {
+// 		font-size: 16px;
+// 		padding: .34em 1.2em;
+// 	}
+// }

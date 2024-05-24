@@ -1,0 +1,26 @@
+extends ../templates/welcome
+
+block vars
+	- const title = 'Вход'
+
+block content
+
+	.container.login
+
+		a.login__logo(href="/")
+			img(src=imgPath + "logo.png")
+
+		h1.login__header #{title}
+
+		.note.login__text
+			p  Введите адрес электронной почты, указанной при регистрации, и пароль
+
+		.login__actions
+			.input
+				input(type="text" placeholder="Email / Логин")
+			.input
+				input(type="password" placeholder="Пароль")
+
+		.note.login__footer
+			a(href="/register.html") У  меня нет аккаунта
+			a(href="/recovery.html") Забыли пароль?

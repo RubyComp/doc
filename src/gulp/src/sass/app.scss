@@ -1,0 +1,12 @@
+@import 'normalize';
+@import 'fonts';
+@import 'grid';
+@import 'meta';
+@import 'components';
+@import 'common';
+@import 'modules';
+// @import 'sections';
+
+* {
+	transition: .1s;
+}

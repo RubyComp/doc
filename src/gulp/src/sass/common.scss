@@ -1,0 +1,12 @@
+body {
+	background-color: var(--back-color);
+	color: var(--text-color);
+	font-family: var(--main-font);
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+}
